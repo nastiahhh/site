@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авангард Сити — Строительная компания</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="icon" href="favicon.ico" type="x-icon">.
+</head>
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo"><img src="logo.png" alt="Авангард Сити" class="logo-img"></a>
+            <nav class="nav">
+                <a href="#services">Услуги</a>
+                <a href="#about">О компании</a>
+                <a href="#how">Как мы работаем</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contact">Контакты</a>
+            </nav>
+            <a href="tel:+79490679893" class="header-phone">+7 (949) 067 98 93</a>
+            <button class="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 class="hero-anim">АВАНГАРД СИТИ</h1>
+                <p class="hero-subtitle hero-anim">Строительно-монтажные работы полного цикла</p>
+                <ul class="hero-list hero-anim">
+                    <li>Работа по договору</li>
+                    <li>Соблюдение сроков</li>
+                    <li>Прозрачная смета</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary hero-cta hero-anim">Рассчитать стоимость</a>
+            </div>
+        </section>
+<section id="services" class="section services-interactive">
+    <div class="container">
+        <h2 class="section-title reveal">Услуги</h2>
+        <div class="services-wrapper">
+                    <div class="services-desktop-view">
+                <div class="services-display">
+                    <div class="service-display-content active" data-service="building"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><h3>Строительство зданий</h3><p>Полный цикл: от проектирования до сдачи под ключ. Возводим промышленные, коммерческие и жилые объекты.</p></div>
+                    <div class="service-display-content" data-service="repair"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div><h3>Ремонт и отделка</h3><p>Капитальный и косметический ремонт, отделка помещений любой сложности.</p></div>
+                    <div class="service-display-content" data-service="reconstruction"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20"/><path d="M4 20V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4"/><path d="m18 14 4-4-4-4"/><path d="M14 10h8"/><rect x="8" y="12" width="4" height="8"/></svg></div><h3>Реконструкция</h3><p>Обновление и модернизация существующих зданий.</p></div>
+                    <div class="service-display-content" data-service="systems"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div><h3>Инженерные системы</h3><p>Проектирование и монтаж электрики, отопления, вентиляции.</p></div>
+                    <div class="service-display-content" data-service="supervision"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Надзор и гарантия</h3><p>Авторский надзор, гарантийное обслуживание и сервис.</p></div>
+                </div>
+                <div class="services-list">
+                    <a href="#" class="service-list-item active" data-service="building">Строительство зданий</a>
+                    <a href="#" class="service-list-item" data-service="repair">Ремонт и отделка</a>
+                    <a href="#" class="service-list-item" data-service="reconstruction">Реконструкция</a>
+                    <a href="#" class="service-list-item" data-service="systems">Инженерные системы</a>
+                    <a href="#" class="service-list-item" data-service="supervision">Надзор и гарантия</a>
+                </div>
+            </div>
+            <div class="swiper services-mobile-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><div class="service-slide-card"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><h3>Строительство зданий</h3><p>Полный цикл: от проектирования до сдачи под ключ. Промышленные, коммерческие и жилые объекты.</p></div></div>
+                    <div class="swiper-slide"><div class="service-slide-card"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg></div><h3>Ремонт и отделка</h3><p>Капитальный и косметический ремонт, отделка помещений любой сложности.</p></div></div>
+                    <div class="swiper-slide"><div class="service-slide-card"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20"/><path d="M4 20V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v4"/><path d="m18 14 4-4-4-4"/><path d="M14 10h8"/><rect x="8" y="12" width="4" height="8"/></svg></div><h3>Реконструкция</h3><p>Обновление и модернизация существующих зданий.</p></div></div>
+                    <div class="swiper-slide"><div class="service-slide-card"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div><h3>Инженерные системы</h3><p>Проектирование и монтаж электрики, отопления, вентиляции.</p></div></div>
+                    <div class="swiper-slide"><div class="service-slide-card"><div class="service-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Надзор и гарантия</h3><p>Авторский надзор, гарантийное обслуживание и сервис.</p></div></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+        
+        <section id="about" class="section about">
+            <div class="container about-inner">
+                <div class="about-text">
+                     <h2 class="section-title reveal">О компании</h2>
+
+                    <p class="about-lead">«Авангард Сити» — строительная компания полного цикла и надёжный генеральный подрядчик для крупных предприятий ДНР.</p>
+
+                    <p>Работая в статусе генподрядчика, мы берём на себя полную ответственность за координацию процессов, качество работ, соблюдение технологий и сроков. Для наших заказчиков это означает предсказуемость результата, прозрачность взаимодействия и уверенность в партнёре.</p>
+
+                    <ul class="about-stats">
+                        <li><strong>50 000+</strong> квадратных метров</li>
+                        <li><strong>20+</strong> объектов в 2025 году</li>
+                    </ul>
+                </div>
+                <div class="about-visual">
+                    <div class="about-block"></div>
+                </div>
+            </div>
+        </section>
+		
+        <section id="how" class="section how">
+    <div class="container">
+        <h2 class="section-title reveal">Как мы работаем</h2>
+        <ol class="how-steps">
+            <li class="how-step reveal" data-reveal-delay="0.1">
+                <span class="how-num">1</span>
+                <div class="how-step-content">
+                    <h3>Заявка и консультация</h3>
+                    <p>Вы оставляете заявку, мы связываемся для уточнения деталей.</p>
+                </div>
+            </li>
+            <li class="how-step reveal" data-reveal-delay="0.2">
+                <span class="how-num">2</span>
+                <div class="how-step-content">
+                    <h3>Выезд и осмотр объекта</h3>
+                    <p>Наш специалист бесплатно выезжает на объект для замеров.</p>
+                </div>
+            </li>
+            <li class="how-step reveal" data-reveal-delay="0.3">
+                <span class="how-num">3</span>
+                <div class="how-step-content">
+                    <h3>Расчёт сметы</h3>
+                    <p>Готовим подробную и прозрачную смету, согласовываем её с вами.</p>
+                </div>
+            </li>
+            <li class="how-step reveal" data-reveal-delay="0.4">
+                <span class="how-num">4</span>
+                <div class="how-step-content">
+                    <h3>Выполнение работ</h3>
+                    <p>Наши бригады выполняют работы с соблюдением всех норм.</p>
+                </div>
+            </li>
+            <li class="how-step reveal" data-reveal-delay="0.5">
+                <span class="how-num">5</span>
+                <div class="how-step-content">
+                    <h3>Сдача объекта</h3>
+                    <p>Вы принимаете готовую работу и получаете гарантию.</p>
+                </div>
+            </li>
+        </ol>
+    </div>
+</section>
+
+        <section class="slogan-section">
+            <div class="container">
+                <p class="slogan-text">«Авангард Сити» — когда важны масштаб, качество и ответственность за результат.</p>
+            </div>
+        </section>
+        <section id="projects" class="section projects">
+    <div class="container">
+        <h2 class="section-title">Выполненные проекты</h2>
+        <div class="projects-grid">
+
+            <article class="project-card reveal">
+                <div class="project-gallery">
+                    <div class="project-gallery-wrapper">
+                        <img src="images/pro11.jpg" alt="Магазин 'Твой Магазин' - фото 1" class="project-gallery-image active">
+                        <img src="images/pro12.jpg" alt="Магазин 'Твой Магазин' - фото 2" class="project-gallery-image">
+                    </div>
+                    <div class="project-nav-arrow prev" aria-label="Предыдущее фото">‹</div>
+                    <div class="project-nav-arrow next" aria-label="Следующее фото">›</div>
+                    <div class="project-pagination"></div>
+                </div>
+                <div class="project-info">
+                    <h3>Магазин "Твой Магазин"</h3>
+                    <p>Строительство под ключ, 12 000 м²</p>
+                </div>
+            </article>
+
+            <article class="project-card reveal reveal-delay-2">
+                <div class="project-gallery">
+                    <div class="project-gallery-wrapper">
+                        <img src="images/pro21.jpg" alt="Каток "Фунтура"" class="project-gallery-image active">
+                        <img src="images/pro22.jpg" alt="Каток "Фунтура"" class="project-gallery-image">
+						<img src="images/pro23.jpg" alt="Каток "Фунтура"" class="project-gallery-image">
+                    </div>
+                    <div class="project-nav-arrow prev" aria-label="Предыдущее фото">‹</div>
+                    <div class="project-nav-arrow next" aria-label="Следующее фото">›</div>
+                    <div class="project-pagination"></div>
+                </div>
+                <div class="project-info">
+                    <h3>Каток "Фунтура"</h3>
+                    <p>Реконструкция художественных элементов, покраска потолка</p>
+                </div>
+            </article>
+
+            <article class="project-card reveal reveal-delay-3">
+                <div class="project-gallery">
+                     <div class="project-gallery-wrapper">
+                        <img src="images/pro31.jpg" alt="Атриум - фото 1" class="project-gallery-image active">
+                        <img src="images/pro32.jpg" alt="Утриум - фото 2" class="project-gallery-image">
+                    </div>
+                    <div class="project-nav-arrow prev" aria-label="Предыдущее фото">‹</div>
+                    <div class="project-nav-arrow next" aria-label="Следующее фото">›</div>
+                    <div class="project-pagination"></div>
+                </div>
+                <div class="project-info">
+                    <h3>Атриум</h3>
+                    <p>Демонтаж и восстановительные работы, замена остекления</p>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+        <section id="contact" class="section contact">
+            <div class="container contact-wrap">
+                <h2 class="section-title contact-title reveal">Свяжитесь с нами</h2>
+                <p class="contact-lead reveal reveal-delay-1">Обсудим ваш проект и рассчитаем стоимость. Звоните или пишите.</p>
+                <a href="tel:+79490679893" class="contact-cta reveal reveal-delay-2">Позвонить +7 949 067 98 93</a>
+                <p class="contact-note">Пн–Пт, 8:00–17:00 · <a href="mailto:ckavangardcity@yandex.ru">ckavangardcity@yandex.ru</a></p>
+            </div>
+        </section>
+    </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+        <div class="footer-col footer-col-logo">
+            <a href="#" class="footer-logo">
+                <img src="logo1.png" alt="Авангард Сити" class="logo-img logo-img-light">
+            </a>
+            <p class="footer-copy">© 2026 Авангард Сити. Все права защищены.</p>
+            <p class="footer-copy">
+                <a href="polit.html" class="footer-policy-link">Политика конфиденциальности</a>
+            </p>
+
+            <div class="footer-requisites">
+                <p>ООО "СК Авангард Сити"</p>
+                <p>Юр. адрес: 283086, ДОНЕЦКАЯ НАРОДНАЯ РЕСПУБЛИКА, Г.О. ДОНЕЦК, Г. ДОНЕЦК, УЛ. ПОСТЫШЕВА, Д. 30, КОМ. 313</p>
+                <p>ИНН 9303042119 / КПП 930301001</p>
+                <p>ОГРН 1259300008549</p>
+            </div>
+
+        </div>
+
+        <div class="footer-col footer-col-contact">
+            <h3 class="footer-heading">Контакты</h3>
+            <p><strong>Телефон:</strong><br><a href="tel:+79937585435">+7(949) 067 98 93</a></p>
+            <p><strong>Почта:</strong><br><a href="mailto:ckavangardcity@yandex.ru">ckavangardcity@yandex.ru</a></p>
+            <p><strong>Адрес:</strong><br>г. Донецк, ул. Артема 130, 5 этаж, каб. 5 (ТРЦ «Донецк Сити»)</p>
+            <p><strong>График работы:</strong><br>Пн-Сб, с 9:00 до 19:00</p>
+        </div>
+
+        <div class="footer-col footer-col-nav">
+            <h3 class="footer-heading">Навигация</h3>
+            <nav class="footer-nav">
+                <a href="#about">О компании</a>
+                <a href="#services">Услуги</a>
+                <a href="#projects">Проекты</a>
+            </nav>
+        </div>
+
+    </div>
+</footer>
+
+    <script>
+        document.querySelector('.burger').addEventListener('click', function() {
+            document.querySelector('.nav').classList.toggle('open');
+            this.classList.toggle('open');
+        });
+        document.querySelectorAll('.nav a').forEach(a => {
+            a.addEventListener('click', () => {
+                document.querySelector('.nav').classList.remove('open');
+                document.querySelector('.burger').classList.remove('open');
+            });
+        });
+
+        (function() {
+            var header = document.querySelector('.header');
+            function onScroll() {
+                if (window.scrollY > 40) header.classList.add('header-scrolled');
+                else header.classList.remove('header-scrolled');
+            }
+            window.addEventListener('scroll', onScroll, { passive: true });
+            onScroll();
+        })();
+
+        (function() {
+            var reveals = document.querySelectorAll('.reveal');
+            if (!reveals.length) return;
+            var observer = new IntersectionObserver(function(entries) {
+                entries.forEach(function(entry) {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { rootMargin: '0px 0px -60px 0px', threshold: 0.1 });
+            reveals.forEach(function(el) { observer.observe(el); });
+        })();
+		(function() {
+            const serviceItems = document.querySelectorAll('.service-list-item');
+            const serviceContents = document.querySelectorAll('.service-display-content');
+
+            if (!serviceItems.length) return;
+
+            const eventType = window.matchMedia("(hover: hover)").matches ? 'mouseover' : 'click';
+
+            serviceItems.forEach(item => {
+                item.addEventListener(eventType, function(e) {
+                    e.preventDefault(); 
+                    
+                    const service = this.dataset.service;
+
+                    if (this.classList.contains('active')) return;
+
+                    serviceItems.forEach(i => i.classList.remove('active'));
+                    serviceContents.forEach(c => c.classList.remove('active'));
+                    
+                    this.classList.add('active');
+                    
+                    const correspondingContent = document.querySelector(`.service-display-content[data-service="${service}"]`);
+                    if (correspondingContent) {
+                        correspondingContent.classList.add('active');
+                    }
+                });
+            });
+        })();
+		(function() {
+    const projectCards = document.querySelectorAll('.project-card');
+
+    projectCards.forEach(card => {
+        const images = card.querySelectorAll('.project-gallery-image');
+        const prevArrow = card.querySelector('.project-nav-arrow.prev');
+        const nextArrow = card.querySelector('.project-nav-arrow.next');
+        const paginationContainer = card.querySelector('.project-pagination');
+        let currentIndex = 0;
+
+        if (images.length <= 1) {
+            if(prevArrow) prevArrow.style.display = 'none';
+            if(nextArrow) nextArrow.style.display = 'none';
+            return;
+        }
+
+        for (let i = 0; i < images.length; i++) {
+            const dot = document.createElement('div');
+            dot.classList.add('dot');
+            if (i === 0) dot.classList.add('active');
+            paginationContainer.appendChild(dot);
+        }
+        const dots = card.querySelectorAll('.project-pagination .dot');
+
+        function showImage(index) {
+            images[currentIndex].classList.remove('active');
+            dots[currentIndex].classList.remove('active');
+            currentIndex = index;
+            images[currentIndex].classList.add('active');
+            dots[currentIndex].classList.add('active');
+        }
+
+        nextArrow.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const nextIndex = (currentIndex + 1) % images.length;
+            showImage(nextIndex);
+        });
+
+        prevArrow.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const prevIndex = (currentIndex - 1 + images.length) % images.length;
+            showImage(prevIndex);
+        });
+    });
+})();
+(function() {
+    if (window.innerWidth <= 992) {
+        const servicesSlider = new Swiper('.services-mobile-slider', {
+            slidesPerView: 1, 
+            spaceBetween: 24,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                }
+            }
+        });
+    }
+})();
+    </script>
+</body>
+</html>
