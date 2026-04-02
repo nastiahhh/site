@@ -6,8 +6,8 @@
 
 @font-face {
   font-family: "TT Lovelies Script";
-  src: url("./fonts/tt-lovelies-script.woff2") format("woff2"),
-       url("./fonts/tt-lovelies-script.woff") format("woff"),
+  src: url("./tt-lovelies-script.woff2") format("woff2"),
+       url("./tt-lovelies-script.woff") format("woff"),
        local("TT Lovelies Script");
   font-display: swap;
   font-weight: 400;
