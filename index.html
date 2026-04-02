@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Олег & Яна — Wedding Day</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+  <div id="invite-screen">
+    <div class="invite-content">
+        <h1 class="title">Вы приглашены на свадьбу!</h1>
+
+        <div class="envelope" id="envelope">
+		<img src="image/letter.png" alt="Приглашение" class="envelope-img">
+		</div>
+            <div class="flap"></div>
+            <div class="seal"></div>
+        </div>
+
+        <p class="hint">нажмите для разблокировки</p>
+    </div>
+</div>
+<div id="main-site" class="hidden">
+  	<img class="hero-back" src="./image/1.png" alt="бэк">
+    <section class="hero section">
+      <p class="hero-top">WEDDING DAY</p>
+      <p class="hero-date">20 | 06 | 2026</p>
+      <img class="hero-photo" src="./hero.jpg" alt="Олег и Яна">
+      <h1 class="hero-title">Олег &amp; Яна</h1>
+      <p class="hero-subtitle">Мы приглашаем вас разделить с нами одно из важных событий</p>
+    </section>
+
+    <section class="section dear-guests">
+	<img class="section-icon" src="./image/2.png" alt="">
+      <h2>Дорогие гости!</h2>
+      <p>В нашей жизни наступает особенный день - день, когда мы начинаем свою семейную историю.</p>
+      <p>Приглашаем вас стать частью нашего свадебного дня, наполненного любовью, теплом, улыбками и душевной атмосферой.</p>
+      <p>Мы искренне хотим разделить это счастье с людьми, которые занимают важное место в нашей жизни, кто поддерживал нас, радовался вместе с нами и был рядом на каждом этапе нашего пути.</p>
+    <h2>Мы скажем "Да" через:</h2>
+      <div id="countdown" class="countdown" aria-live="polite">
+        <div class="count-card"><span id="days">00</span><small>дней</small></div>
+        <div class="count-card"><span id="hours">00</span><small>часов</small></div>
+        <div class="count-card"><span id="minutes">00</span><small>минут</small></div>
+        <div class="count-card"><span id="seconds">00</span><small>секунд</small></div>
+      </div>
+	  </section>
+
+    <section class="section program">
+  <div class="program-bg">
+    <div class="program-card">
+      
+      <h2>СВАДЕБНАЯ<br>ПРОГРАММА</h2>
+
+      <ul class="program-list">
+		<li>
+		  <span class="time">13:00</span>
+		  <span class="sep">|</span>
+		  <span class="text">Сбор гостей</span>
+		</li>
+		<li>
+		  <span class="time">13:30</span>
+		  <span class="sep">|</span>
+		  <span class="text">Торжественная церемония</span>
+		</li>
+		<li>
+		  <span class="time">15:00</span>
+		  <span class="sep">|</span>
+		  <span class="text">Начало банкета</span>
+		</li>
+		<li>
+		  <span class="time">22:00</span>
+		  <span class="sep">|</span>
+		  <span class="text">Окончание вечера</span>
+		</li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+
+    <section class="section">
+	<img class="section-place" src="./image/4.png" alt="">
+      <p class="place-name">РЕСТОРАН УСАДЬБА</p>
+      <p>г. Донецк, ул. Краснофлотская, 74а</p>
+    </section>
+
+    <section class="section dress-section">
+  <div class="dress-bg"></div>
+  <div class="dress-content">
+    <h2 class="dress">Дресс код</h2>
+    <p>Дорогие гости! <br> Просим вас избегать белого цвета, так как он традиционно ассоциируется с невестой.</p>
+    <p>Выбирайте оттенки, которые подчеркнут атмосферу праздника, но не будут отвлекать внимание от главных героев торжества.</p>
+  </div>
+</section>
+	<section class="section details">
+	  <div class="details-content">
+		<h2 class="dress">Детали</h2>
+		<p>Ваши улыбки и смех подарят нам незабываемое счастье в этот день, а пожелания в конвертах помогут осуществить НАШИ мечты!</p>
+		<img class="details-divider" src="./image/detail.png" alt="">
+		<p>Приятным комплиментом для нас вместо цветов будет бутылочка вашего любимого вина, которую мы откроем на ближайшем совместном празднике.</p>
+		<img class="details-divider" src="./image/detail.png" alt="">
+		<p>Маленькие непоседы - наше общее счастье, но в день нашей свадьбы мы решили устроить "взрослый" праздник. Давайте вместе создадим атмосферу, где каждый гость сможет расслабиться и танцевать до утра!</p>
+	  </div>
+	</section>
+
+    <section class="section rsvp">
+      <h2>Анкета</h2>
+      <p class="form-text">Просим вас сообщить, сможете вы быть с нами, заполнив форму.</p>
+
+      <form id="rsvp-form" class="rsvp-form">
+        <label>
+          Имя и Фамилия
+          <input type="text" name="fullname" required>
+        </label>
+
+        <fieldset>
+          <legend>Подтвердите присутствие на торжестве:</legend>
+          <label><input type="radio" name="attendance" value="Смогу прийти" required>Смогу прийти</label>
+          <label><input type="radio" name="attendance" value="Не смогу прийти">Не смогу прийти</label>
+          <label><input type="radio" name="attendance" value="Сообщу позже">Сообщу позже</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Предпочтения по напиткам:</legend>
+          <label><input type="checkbox" name="drinks" value="Шампанское">Шампанское</label>
+          <label><input type="checkbox" name="drinks" value="Красное вино">Красное вино</label>
+          <label><input type="checkbox" name="drinks" value="Белое вино">Белое вино</label>
+          <label><input type="checkbox" name="drinks" value="Коньяк">Коньяк</label>
+          <label><input type="checkbox" name="drinks" value="Водка">Водка</label>
+          <label><input type="checkbox" name="drinks" value="Безалкогольные напитки">Безалкогольные напитки</label>
+        </fieldset>
+
+        <button type="submit" id="submit-btn">Отправить</button>
+      </form>
+      <p id="form-status" class="form-status" aria-live="polite"></p>
+    </section>
+
+    <footer class="section footer rsvp-footer">
+      <p class="footer-title">До скорой встречи!</p>
+      <p>С любовью, Олег &amp; Яна</p>
+    </footer>
+	</div>
+  </main>
+			<audio id="bg-music" loop>
+			  <source src="./music.mp3" type="audio/mpeg">
+			</audio>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+	<script>
+		const screen = document.getElementById('invite-screen');
+const envelope = document.getElementById('envelope');
+const site = document.getElementById('main-site');
+const music = document.getElementById('bg-music');
+
+screen.addEventListener('click', () => {
+console.log("CLICK OK");
+  try {
+    envelope.classList.add('open');
+
+    if (music) {
+  music.volume = 0.5;
+
+  music.play()
+    .then(() => {
+      console.log("MUSIC PLAYING");
+    })
+    .catch(err => {
+      console.log("MUSIC ERROR", err);
+    });
+}
+
+    setTimeout(() => {
+      screen.style.opacity = '0';
+      setTimeout(() => {
+        screen.style.display = 'none';
+
+        if (site) {
+          site.classList.remove('hidden');
+        }
+
+      }, 800);
+
+    }, 1000);
+
+  } catch (err) {
+    console.log("Ошибка клика:", err);
+  }
+});
+	</script>
+</body>
+</html>
+

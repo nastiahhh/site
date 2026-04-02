@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'TT Lovelies Script';
+    src: url('TTLoveliesScript.eot');
+    src: local('TT Lovelies Script'), local('TTLoveliesScript'),
+        url('TTLoveliesScript.eot?#iefix') format('embedded-opentype'),
+        url('TTLoveliesScript.woff2') format('woff2'),
+        url('TTLoveliesScript.woff') format('woff'),
+        url('TTLoveliesScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
