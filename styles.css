@@ -17,7 +17,7 @@
 @font-face {
   font-family: "FoglihtenNo06";
   src: url("./FoglihtenNo06.woff2") format("woff2"),
-       url("./FoglihtenNo06.woff") format("woff");
+       url("./FoglihtenNo06.woff") format("woff"); 
 }
 
 @font-face {
@@ -116,7 +116,7 @@ p {
 .hero-top {
   margin-bottom: 6px;
   font-family: "Misron", serif;
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 500;
 }
 .section-icon {
