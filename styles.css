@@ -22,10 +22,10 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Misron";
-  src: local("Misron");
-  font-display: swap;
+  src: url("./Misron.woff2") format("woff2");
 }
 
 * {
