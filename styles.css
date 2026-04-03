@@ -186,7 +186,7 @@ p {
   margin: 0 0 14px;
   letter-spacing: 1px;
   color: var(--color-bg);
-  transform: translateY(-12px);
+  transform: translateY(-10px);
 }
 
 .program-list li {
