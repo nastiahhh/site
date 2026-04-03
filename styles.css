@@ -172,12 +172,20 @@ p {
 .program-bg {
   height: 368px;
   margin: 0 auto;
-  background: url("./image/3.png") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
+  background:
+    linear-gradient(
+      to bottom,
+      #FCFBF6 0%,
+      rgba(252, 251, 246, 0) 10%,
+      rgba(252, 251, 246, 0) 90%,
+      #FCFBF6 100%
+    ),
+    url("./image/3.png") center/cover no-repeat;
 }
 
 .program-card h2 {
